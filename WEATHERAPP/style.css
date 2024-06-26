@@ -1,0 +1,92 @@
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Improved font stack for better readability */
+	background-color: hsl(210, 26%, 71%); /* Light gray background */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.container {
+	width: 100%; /* Increased width for better content spacing */
+	max-width:1000px; /* Expanded maximum width */
+	margin: 20px auto; /* Added margin for better centering */
+	padding: 30px; /* Increased padding for more breathing space */
+	background-color: #ffffff;
+	border-radius: 15px; /* Slightly rounded corners */
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Increased box shadow for depth */
+}
+
+.input-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	margin-bottom: 30px; /* Increased margin for better separation */
+}
+.input-container button {
+	margin-left: 10px; /* Add space between buttons */
+}
+
+input[type="text"] {
+	border: 2px solid #ced4da; /* Lighter border */
+	outline: none;
+	border-radius: 8px; /* Rounded input corners */
+	padding: 12px; /* Increased padding for better input appearance */
+	width: 60%; /* Adjusted input width */
+}
+
+button {
+	border-radius: 8px;
+	padding: 12px 24px; /* Increased padding for better button appearance */
+	background-color: #28a745; /* Green button color */
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+
+button:hover {
+	background-color: #218838; /* Darker green on hover */
+}
+
+.weather-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.weather-info img {
+	margin-bottom: 20px; /* Increased margin for better spacing */
+	width: 120px; /* Slightly larger weather icon */
+	height: 120px;
+}
+
+.weather-info h2 {
+	font-size: 28px; /* Larger heading */
+	margin-bottom: 10px; /* Increased margin for better separation */
+}
+
+.weather-info h3 {
+	font-size: 20px; /* Larger subheading */
+	color: #495057; /* Darker text color */
+}
+
+.five-day-forecast {
+	margin-top: 30px; /* Increased margin for better separation */
+	border-top: 2px solid #ced4da; /* Lighter border */
+	padding-top: 30px;
+}
+
+.five-day-forecast .forecast {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px; /* Increased margin for better separation */
+}
+
+.five-day-forecast img {
+	width: 60px; /* Larger forecast icon */
+	height: 60px;
+	margin-right: 20px; /* Increased margin for better spacing */
+}
